@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.smart_mechanic.smartmechanic.SuccessActivity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/successful"
+        android:id="@+id/textView_successful" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Conversion Result"
+        android:id="@+id/textView_result"
+        android:layout_marginTop="74dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_below="@+id/textView_successful"
+        android:layout_alignRight="@+id/textView_successful"
+        android:layout_alignEnd="@+id/textView_successful" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_shop"
+        android:id="@+id/textView_findShop"
+        android:layout_marginTop="135dp"
+        android:layout_below="@+id/textView_problem_explanation"
+        android:layout_toLeftOf="@+id/textView_result"
+        android:layout_toStartOf="@+id/textView_result" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Shop"
+        android:id="@+id/button_findShop"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView_findShop"
+        android:layout_toLeftOf="@+id/textView_result"
+        android:layout_toStartOf="@+id/textView_result"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL to explanation of problem"
+        android:id="@+id/textView_problem_explanation"
+        android:layout_below="@+id/textView_result"
+        android:layout_alignRight="@+id/textView_successful"
+        android:layout_alignEnd="@+id/textView_successful" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageButton_play"
+        android:src="@drawable/ic_play_arrow_black_24dp"
+        android:layout_above="@+id/textView_findShop"
+        android:layout_alignLeft="@+id/textView_findShop"
+        android:layout_alignStart="@+id/textView_findShop" />
+
+
+</RelativeLayout>

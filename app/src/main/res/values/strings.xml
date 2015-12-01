@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Smart Mechanic</string>
+    <string name= "problems">Car problems? \nStart here...</string>
+    <string name="select_make">Select Make</string>
+    <string name="select_model">Select Model</string>
+    <string name="select_year">Select Year</string>
+    <string name="location_of_sound">Choose location \nof sound</string>
+    <string name="press_start">Press the mic to record \nthe sound for 5 seconds</string>
+    <string name="find_shop">Find a nearby shop?</string>
+    <string name="action_settings">Settings</string>
+    <string name="fail">Sorry no results</string>
+
+    <string-array name="makes_array">
+        <item>Select Make...</item>
+        <item>Ford</item>
+        <item>Chevrolet</item>
+        <item>Honda</item>
+    </string-array>
+
+    <string-array name="ford_models_array">
+        <item>Select Model...</item>
+        <item>Fusion</item>
+    </string-array>
+
+    <string-array name="chevrolet_models_array">
+        <item>Select Model...</item>
+        <item>Malibu</item>
+    </string-array>
+    <string-array name="honda_models_array">
+        <item>Select Model...</item>
+        <item>Civic</item>
+    </string-array>
+
+
+    <string-array name="years_array">
+        <item>Select Year...</item>
+        <item>2013</item>
+    </string-array>
+
+    <string-array name="models_array">
+        <item>Select Model...</item>
+    </string-array>
+
+    <string name="title_activity_sound_location_activity">Smart Mechanic</string>
+    <string name="title_activity_success">Smart Mechanic</string>
+
+    <string name="successful">Success!\n\nThe sound you recorded was:</string>
+
+
+
+</resources>
